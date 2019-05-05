@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>three button</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content>ul{
+            list-style: none;
+        }
+        .content .btns .btn{
+            display: inline-block;
+        }
+        .content{
+            width: 600px;
+            height: 100px;
+            margin: 0 auto;
+            position: relative;
+            background-color: darkgray;
+        }
+        .btns{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .btn{
+            color: white;
+            margin-left: 10px;
+            padding: 3px 5px;
+            background-color: paleturquoise;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+        }
+        .b1{
+            background-color: #4caf50;
+        }
+        .b2{
+            background-color: #2196F3;
+        }
+        .b3{
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <ul class="btns">
+            <li class="btn b1">按钮1</li>
+            <li class="btn b2">按钮2</li>
+            <li class="btn b3">按钮3</li>
+        </ul>
+    </div>
+</body>
+</html>
